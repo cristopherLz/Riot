@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    line-height: 1.1em;
+    background: #0A0A0A;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 17px;
+}
+.header .container{
+    width: 80%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.header{
+    background: #111111;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    padding: .5rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    background-color: #F29D35;
+}
+
+.logo-nav-container .logo{
+    width: 19%;
+}
+
+video{
+    margin-top: 5em;
+    width: 100%;
+}
+.main{
+    font-family: 'Nunito', sans-serif;
+    padding-top: 2rem;
+    width: 80%;
+    max-width: 1024px;
+    margin: 0 auto;
+    color: white;
+}
+
+.texto-historia p{
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
+.texto-historia p a{
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: .2s;
+}
+.texto-historia p a:hover{
+    color: #F29D35 ;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    align-content: space-between;
+    padding: 10px;
+}
+
+.card-container article{
+    border-radius: 20px;    
+    background-color: #222222;
+    text-align: center;
+    width: 900px;
+    height: 220px;
+    margin: 10px;
+    transition: 0.4s;
+}
+
+.card-container article:hover{
+    box-shadow: rgba(255, 166, 0, 0.16) 0px 1px 4px, rgb(255, 153, 0) 0px 0px 0px 3px;
+}
+
+.card-container .card01 h2{
+    margin-top: 280px;
+    background: #111111;
+    padding: 10px;
+}
+
+.card-container .card02 h2{
+    margin-top: 150px;
+    background: #111111;
+    padding: 10px;
+    
+}
+
+.card-container .card03 h2{
+    margin-top: 150px;
+    background: #111111;
+    padding: 10px;
+}
+
+.card-container .card04 h2{
+    margin-top: 150px;
+    background: #111111;
+    padding: 10px;
+}
+
+.card-container .card05 h2{
+    margin-top: 150px;
+    background: #111111;
+    padding: 10px;
+}
+
+.card-container .card01{
+    background-image: url(../img/card01.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 900px;
+    height: 350px;
+}
+
+.card-container .card01:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.card-container .card02{
+    background-image: url(../img/card02.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+}
+.card-container .card02:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.card-container .card03{
+    background-image: url(../img/card03.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.card-container .card03:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.card-container .card04{
+    background-image: url(../img/banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.card-container .card04:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.card-container .card05{
+    background-image: url(../img/card03.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.card-container .card05:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.people{
+    font-family: 'Nunito', sans-serif;
+    justify-content: center;
+    background: white;
+}
+.card-separacion{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card-separacion .articulo h4{
+    font-size: 50px;
+    font-weight: 800;
+}
+.card-separacion .articulo p{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+}
+.card-separacion .articulo .work{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-people{
+    background-image: url(../img/gente.png);
+    width: 895px;
+    height: 550px;
+}
+
+.boton-div{
+    margin-top: 40px;
+}
+.puesto{
+    width: 200px;
+    background-color: #DFDEDE;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+.oficina{
+    width: 200px;
+    background-color: #DFDEDE;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+.puesto:hover{
+    cursor: pointer;
+    background-color:#afafaf ;
+}
+.oficina:hover{
+    cursor: pointer;
+    background-color:#afafaf ;
+}
+.button{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: #D1363A;
+    padding: 15px;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.button:hover{
+    background-color: #fa4f55;
+}
+
+.footer{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer .container-footer{
+    width: 80%;
+    justify-content: center;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.container-footer img{
+    width: 10%;
+}
+
+
+.footer a{
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #858585;
+}
+.footer-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-nav ul li{
+    display: inline-block;
+}
+
+.footer-nav ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+@media all and (max-width: 900px){
+    video{
+        margin-top: 9.2em;
+        width: 100%;
+    }
+    .texto-historia p{
+        text-align: center;
+        font-size: 1.02rem;
+        line-height: 1.5;
+    }
+    
+    .footer .container-footer{
+        width: 80%;
+        text-align: center;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    .logo-nav-container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .logo-nav-container .logo{
+        width: 50%;
+    }
+    .card-container .card01 h2{
+        margin-top: 140px;
+        background: #111111;
+        padding: 10px;
+    }
+    .card-container .card01{
+        background-image: url(../img/card01.jpg);
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        width: 900px;
+        height: 220px;
+    }
+
+    .card-container article{
+        border-radius: 20px;    
+        background-color: #222222;
+        text-align: center;
+        width: 900px;
+        height: 220px;
+        margin: 10px;
+        transition: 0.4s;
+    }
+
+    .card-separacion{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .img-people{
+        margin-top: 50px;
+        text-align: center;
+        background-image: url(../img/gente.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position: center;
+    }
+
+    .card-separacion .articulo h4{
+        font-size: 43px;
+        font-weight: 800;
+    }
+    
+    .puesto{
+        width: 145px;
+        background-color: #DFDEDE;
+        transition: 0.3s;
+        border-radius: 20px;
+    }
+    .oficina{
+        width: 145px;
+        background-color: #DFDEDE;
+        transition: 0.3s;
+        border-radius: 20px;
+    }
+
+    
+}
